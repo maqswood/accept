@@ -21,12 +21,18 @@ html, body {
     scroll-behavior: smooth;
 
 } 
-
+.mobile2{
+    height: 500px;
+    width: 100%;
+}
 
 /* for mobile  */
 
 @media only screen and (max-width:768px){
     .mobile{
+        height: 300px;
+    }
+    .mobile2{
         height: 300px;
     }
 }
